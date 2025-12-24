@@ -14,7 +14,6 @@ This project presents **Yaqeen-AI**, a robust system for detecting and classifyi
 
 ## Project Structure
 - `notebooks/`: Step-by-step processing, training, and evaluation.
-- `src/`: Core preprocessing and model definitions.
 - `app/`: Streamlit web application.
 
 ## Installation
