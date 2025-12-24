@@ -1,53 +1,25 @@
-# DATASET CARD — Arabic Hate Speech Unified Dataset
+#### **`DATASET_CARD.md`**
 
-This dataset is a unified, harmonized collection of Arabic hate speech and offensive language samples collected from multiple publicly available academic sources.
+```markdown
+# Harmonized Arabic Hate Speech Dataset
 
-## 📚 Sources Included
+## Dataset Summary
+This dataset is a harmonization of six open-source Arabic hate speech corpora, re-mapped to a unified taxonomy (Normal, Gender Hate, Origin Hate, Religious Hate).
 
-1. **OSACT Shared Task 2022**  
-2. **MLMA (Abusive Arabic Language)**  
-3. **SoHateful Dataset**  
-4. **Additional Twitter IDs Dataset (sbalsefri)**
-   - To be hydrated using Twarc2 and merged later.
+## Sources & Citations
+1. **OSACT5:** Mubarak et al. (2022)
+2. **SoHateful:** Zaghouani et al. (2024)
+3. **MLMA:** Ousidhoum et al. (2019)
+4. **ArMI:** Mulki & Ghanem (2021)
+5. **Brothers:** Albadi et al. (2018)
+6. **Egyptian 5-Way:** Ahmed et al. (2022)
 
----
+## Statistics
+- **Total Samples:** ~40k
+- **Language:** Modern Standard Arabic (MSA) & Dialectal Arabic.
+- **Label Schema:**
+  - `0`: Not Hate
+  - `1`: Hate (Subtypes: OH, GH, RH)
 
-## 📊 Dataset Statistics (Before Processing)
-
-(Generated in `0_data_snapshot.ipynb`)
-
-- Total samples: ~**X,XXX**
-- Hate class: **Y%**
-- Non-hate class: **Z%**
-- Average text length: **N characters**
-
----
-
-## ⚙️ Preprocessing Performed
-
-- URL removal  
-- Mention and hashtag normalization  
-- Arabic letter normalization (`alef`, `ta marbouta`, `alef maksura`)  
-- Emoji retention  
-- Repeated character normalization  
-- Removal of non-Arabic characters  
-- Length trimming  
-
----
-
-## 🧩 Planned Augmentations
-
-- Back-translation  
-- Word dropout  
-- Synonym replacement via Arabic WordNet  
-- Character-level noise  
-
----
-
-## ⚠️ Usage Notes
-
-Do **not** redistribute hydrated tweets directly (Twitter ToS).  
-Share only Tweet IDs and labels.
-
-This dataset is intended strictly for research and evaluation in Arabic NLP.
-
+## License
+The harmonized dataset is provided for research purposes. Users must adhere to the licenses of the original constituent datasets.
