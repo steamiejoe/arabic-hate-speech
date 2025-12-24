@@ -1,4 +1,4 @@
-# Yaqeen-AI: Arabic Hate Speech Detection with Multi-Task Learning
+# Yaqeen-AI: Arabic Hate Speech Classification 
 
 ## Overview
 This project presents **Yaqeen-AI**, a robust system for detecting and classifying Arabic hate speech. It addresses the scarcity of fine-grained Arabic datasets by harmonizing six major corpora (OSACT, MLMA, SoHateful, ArMI, Brothers, Egyptian-5-Way).
