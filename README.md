@@ -22,20 +22,34 @@ This project presents **Yaqeen-AI**, a robust system for detecting and classifyi
 The data used in this project is derived from the following open-source works. If you use this repository, please cite the original authors:
 
 1.  **OSACT5:** 
-```text Mubarak, H., Al-Khalifa, H., & Al-Thubaity, A. (2022). Overview of OSACT5 shared task on Arabic offensive language and hate speech detection. *Proceedings of the 5th Workshop on Open-Source Arabic Corpora and Processing Tools*, 162-166.```
+```text 
+Mubarak, H., Al-Khalifa, H., & Al-Thubaity, A. (2022). Overview of OSACT5 shared task on Arabic offensive language and hate speech detection. *Proceedings of the 5th Workshop on Open-Source Arabic Corpora and Processing Tools*, 162-166.
+```
 2.  **SoHateful:** 
-```text Zaghouani, W., Mubarak, H., & Biswas, M.R. (2024). So hateful! Building a multi-label hate speech annotated Arabic dataset. *Proceedings of LREC-COLING 2024*, 15044-15055.```
+```text 
+Zaghouani, W., Mubarak, H., & Biswas, M.R. (2024). So hateful! Building a multi-label hate speech annotated Arabic dataset. *Proceedings of LREC-COLING 2024*, 15044-15055.
+```
 3.  **MLMA:** 
-```text Ousidhoum, N., Lin, Z., Zhang, H., Song, Y., & Yeung, D.Y. (2019). Multilingual and multi-aspect hate speech analysis. *arXiv preprint arXiv:1908.11049*.```
+```text 
+Ousidhoum, N., Lin, Z., Zhang, H., Song, Y., & Yeung, D.Y. (2019). Multilingual and multi-aspect hate speech analysis. *arXiv preprint arXiv:1908.11049*.
+```
 4.  **ArMI:** 
-```text Mulki, H., & Ghanem, B. (2021). ArMI at FIRE 2021: Overview of the First Shared Task on Arabic Misogyny Identification. *FIRE (Working Notes)*, 820-830.```
+```text 
+Mulki, H., & Ghanem, B. (2021). ArMI at FIRE 2021: Overview of the First Shared Task on Arabic Misogyny Identification. *FIRE (Working Notes)*, 820-830.
+```
 5.  **Brothers:** 
-```text Albadi, N., Kurdi, M., & Mishra, S. (2018). Are they our brothers? Analysis and detection of religious hate speech in the Arabic Twittersphere. *2018 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)*, 69-76.```
-    * *Accessed via the Hate Speech Superset:* Tonneau, M. et al. (2024). From languages to geographies: Towards evaluating cultural bias in hate speech datasets.
+```text 
+Albadi, N., Kurdi, M., & Mishra, S. (2018). Are they our brothers? Analysis and detection of religious hate speech in the Arabic Twittersphere. *2018 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)*, 69-76.
+```
+  * *Accessed via the Hate Speech Superset:* Tonneau, M. et al. (2024). From languages to geographies: Towards evaluating cultural bias in hate speech datasets.
 6.  **Egyptian 5-Way:** 
-```text Ahmed, I., Abbas, M., Hatem, R., Ihab, A., & Fahkr, M.W. (2022). Fine-tuning Arabic pre-trained transformer models for Egyptian-Arabic dialect offensive language and hate speech detection. *2022 20th International Conference on Language Engineering (ESOLEC)*, 170-174.```
+```text 
+Ahmed, I., Abbas, M., Hatem, R., Ihab, A., & Fahkr, M.W. (2022). Fine-tuning Arabic pre-trained transformer models for Egyptian-Arabic dialect offensive language and hate speech detection. *2022 20th International Conference on Language Engineering (ESOLEC)*, 170-174.
+```
 7.  **Superset Curator:** 
-```text Tonneau, M., Liu, D., Fraiberger, S., Schroeder, R., Hale, S.A., & Röttger, P. (2024). From languages to geographies: Towards evaluating cultural bias in hate speech datasets. *arXiv preprint arXiv:2404.17874*.```
+```text 
+Tonneau, M., Liu, D., Fraiberger, S., Schroeder, R., Hale, S.A., & Röttger, P. (2024). From languages to geographies: Towards evaluating cultural bias in hate speech datasets. *arXiv preprint arXiv:2404.17874*.
+```
 
 ## BibTeX
 ```bibtex
