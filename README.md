@@ -41,7 +41,7 @@ Mulki, H., & Ghanem, B. (2021). ArMI at FIRE 2021: Overview of the First Shared 
 ```text 
 Albadi, N., Kurdi, M., & Mishra, S. (2018). Are they our brothers? Analysis and detection of religious hate speech in the Arabic Twittersphere. *2018 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)*, 69-76.
 ```
-  * *Accessed via the Hate Speech Superset:* Tonneau, M. et al. (2024). From languages to geographies: Towards evaluating cultural bias in hate speech datasets.
+  * *Accessed via the Hate Speech Superset:* Tonneau, M. et al. (2024)
 6.  **Egyptian 5-Way:** 
 ```text 
 Ahmed, I., Abbas, M., Hatem, R., Ihab, A., & Fahkr, M.W. (2022). Fine-tuning Arabic pre-trained transformer models for Egyptian-Arabic dialect offensive language and hate speech detection. *2022 20th International Conference on Language Engineering (ESOLEC)*, 170-174.
