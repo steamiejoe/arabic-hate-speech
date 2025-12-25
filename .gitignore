@@ -102,7 +102,7 @@ docs/_build/
 
 # --- 1. Data Folders (Keep structure, ignore content) ---
 # Ignore everything in these folders...
-data/raw/*
+!data/raw/
 data/interim/*
 data/processed/*
 
