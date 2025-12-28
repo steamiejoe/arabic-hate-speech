@@ -78,7 +78,7 @@ LABEL_MAP = {
         "icon": "⚥",
     },
     "OH": {
-        "title": "Origin/Race-Based Hate",
+        "title": "Origin-based Hate",
         "desc": "Content inciting hatred against individuals based on nationality, ethnicity, or race.",
         "icon": "🌍",
     },
