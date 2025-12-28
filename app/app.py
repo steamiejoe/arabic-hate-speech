@@ -1,11 +1,12 @@
+import os
+import pickle
+import time
+
 import streamlit as st
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import pickle
-import os
-import time
-from transformers import AutoTokenizer, AutoModel, AutoConfig
+from transformers import AutoConfig, AutoModel, AutoTokenizer
 
 # --- 1. APP CONFIG ---
 st.set_page_config(
@@ -82,9 +83,9 @@ LABEL_MAP = {
         "desc": "Content inciting hatred against individuals based on nationality, ethnicity, or race.",
         "icon": "🌍",
     },
-    "RH": {
-        "title": "Religious Hate",
-        "desc": "Content promoting violence or prejudice against religious beliefs or groups.",
+    "IH": {
+        "title": "Ideology-based Hate",
+        "desc": "Content promoting violence or prejudice against religious or ideological beliefs or groups.",
         "icon": "🕌",
     },
     "Normal": {
